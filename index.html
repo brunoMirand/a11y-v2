@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="icon" href="img/f.ico">
+
+    <title>Quero Acessar!</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/e.png" class="img01" alt="Imagem representativa do logo da Acessibilidade.">
+
+        <nav id="nav">
+            <a href="#banner">Início</a>
+            <a href="#acess">Acessibilida Web</a>
+            <a href="#container-2">Sites acessiveis</a>
+            <a href="#container-1">Ajuda</a>
+        </nav>
+
+
+        <nav>
+            <div class="posicao">
+                <a class="button botao-redondo" role="button" tabindex="0" title="Aumentar fonte">A+</a>
+                <a class="button botao-redondo" role="button" tabindex="0" title="Fonte padrão">A</a>
+                <a class="button buttonContraste botao-redondo" role="button" tabindex="0" title="Mudar o contraste do conteúdo.">C</a>
+            </div>
+        </nav>
+    </header>
+    <section id="banner">
+        <div id="text-center">
+            <h1> ACESSIBILIDADE DIGITAL</h1>
+        </div>
+        <img id="img-banner" src="img/d.jpg" alt="">
+    </section id="conteudo">
+    <h2 id="acess">Acessibilidade Web</h2>
+
+    <fieldset>
+        <div id="container-2">
+            <fieldset>
+                <div class="box-1">
+                    <h3>Porque de Acessibilidade Web</h3>
+                    <p>
+                        A expressão acessibilidade Web refere-se a prática inclusiva de fazer websites que possam ser
+                        utilizados por todas as pessoas
+                        que tenham deficiência ou não.
+                    </p>
+                    <button class="btn btn-primary" onclick="alerta1()">SAIBA MAIS</button>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="box-2">
+                    <h3>Guia Básico de Acessibilidade</h3>
+                    <p>
+                        A Acessibilidade consiste na facilidade de acesso e de uso de ambientes, produtos e serviços
+                        por qualquer pessoa e em diferentes
+                        contextos.
+                    </p>
+                    <button class="btn btn-primary" onclick="alerta1()">SAIBA MAIS</button>
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <div class="box-3">
+                    <h3>Guia avançado de Acessibilidade</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo similique repellat quae
+                        perferendis neque quasi, illo
+                        nostrum qui aliquid iusto numquam odit rerum enim, vero sequi velit odio? Corrupti?
+                    </p>
+                    <button class="btn btn-primary" onclick="alerta1()">SAIBA MAIS</button>
+                </div>
+            </fieldset>
+        </div>
+    </fieldset>
+
+    <section>
+        <h2>Sites Acessiveis</h2>
+        <div class="container-1">
+            <div class="box-1">
+                <h3>ACESSIBILIDA.DE</h3>
+                <p>
+                    <a href="http://acessibilida.de/" aria-label="Link externo para o site da Acessibilida.de">Site
+                        acessibilida.de</a>
+                    <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo similique repellat quae
+                    perferendis
+                    neque quasi, illo nostrum qui aliquid iusto numquam odit rerum enim, vero sequi velit odio?
+                    Corrupti?
+                </p>
+                <button class="btn btn-primary" onclick="alerta1()">SAIBA MAIS</button>
+            </div>
+            <div class="box-2">
+                <h3>ITAU</h3>
+                <p>
+                    <a href="https://www.itau.com.br/" aria-label="Link externo para o site do Itau">Site Itau</a>
+                    <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo similique repellat quae
+                    perferendis
+                    neque quasi, illo nostrum qui aliquid iusto numquam odit rerum enim, vero sequi velit odio?
+                    Corrupti?
+                </p>
+                <button class="btn btn-primary" onclick="alerta1()">SAIBA MAIS</button>
+
+            </div>
+            <div class="box-3">
+                <h3>IGUALE</h3>
+                <p>
+                    <a href="https://iguale.com.br/" aria-label="Link externo para o site da iguale">Site Iguale</a>
+                    <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo similique repellat quae
+                    perferendis
+                    neque quasi, illo nostrum qui aliquid iusto numquam odit rerum enim, vero sequi velit odio?
+                    Corrupti?
+                </p>
+                <button class="btn btn-primary" onclick="alerta1()">SAIBA MAIS</button>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div id="container-2">
+            <div class="box-1">
+                <div id="ajuda">
+                    <h2>Contato</h2>
+                    <form action="" id="form-f">
+                        <div class="grupo-form">
+                            <label for="f-nome">Nome: </label>
+                            <br>
+                            <input type="text" id="f-nome" placeholder="Digite seu nome">
+                        </div>
+                        <div class="grupo-form">
+                            <label for="f-email">E-mail: </label>
+                            <br>
+                            <input type="text" id="f-email" placeholder="Digite seu e-mail para contato">
+                        </div>
+                        <div class="grupo-form">
+                            <label for="f-msg">Mensagem: </label>
+                            <br>
+                            <textarea name="msg" id="f-msg" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="grupo-form">
+                            <input type="submit" value="Enviar" id="f-enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="box-2">
+                <section>
+                    <div id="container-1">
+
+                        <h2>Depoimento</h2>
+                        <div class="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mGfq4jBT3TI"
+                                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <p>Estação Hack 10° turma 2018.</p>
+    </footer>
+
+</body>
+<script defer src="assets/js/index.js"></script>
+<script defer src="assets/js/mudar.js"></script>
+
+</html>
